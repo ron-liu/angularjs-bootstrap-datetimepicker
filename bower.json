@@ -1,26 +1,35 @@
 {
-  "name": "angulardirective-datetimepicker",
-  "version": "0.0.1",
-  "authors": [
-    "ronliu <ronliu2k@gmail.com>"
-  ],
-  "description": "angular directive for bootstrap datetimepicker",
-  "keywords": [
-    "angular",
-    "directive",
-    "boostrap",
-    "datetimepicker",
-    "datepicker",
-    "timepicker"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "smalot-bootstrap-datetimepicker": "latest",
-    "angular": ">1.1.0",
-    "jquery": ">1.8.0",
-    "bootstrap": "2.3.2"
-  },
-  "devDependencies": {
-    "angular-mocks": "~1.2.11"
-  }
+	"name": "angulardirective-datetimepicker",
+	"version": "0.1.0",
+	"authors": [
+		"ronliu <ronliu2k@gmail.com>"
+	],
+	"description": "angular directive for bootstrap datetimepicker",
+	"keywords": [
+		"angular",
+		"directive",
+		"boostrap",
+		"datetimepicker",
+		"datepicker",
+		"timepicker"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"smalot-bootstrap-datetimepicker": "latest",
+		"angular": ">1.1.0",
+		"jquery": ">1.8.0",
+		"bootstrap": "2.3.2"
+	},
+	"devDependencies": {
+		"angular-mocks": "~1.2.11"
+	},
+	"ignore": [
+		"bower_components",
+		"coverage",
+		"bower_components",
+		"karma.conf.js",
+		"Gruntfile.js",
+		"package.json",
+		".gitignore"
+	]
 }
