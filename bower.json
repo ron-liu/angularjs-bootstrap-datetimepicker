@@ -1,0 +1,23 @@
+{
+  "name": "angulardirective-datetimepicker",
+  "version": "0.0.1",
+  "authors": [
+    "ronliu <ronliu2k@gmail.com>"
+  ],
+  "description": "angular directive for bootstrap datetimepicker",
+  "keywords": [
+    "angular",
+    "directive",
+    "boostrap",
+    "datetimepicker",
+    "datepicker",
+    "timepicker"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "smalot-bootstrap-datetimepicker": "latest",
+    "angular": ">1.1.0",
+    "jquery": ">1.8.0",
+    "bootstrap": ">2.0.0"
+  }
+}

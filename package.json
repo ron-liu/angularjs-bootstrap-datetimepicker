@@ -1,0 +1,29 @@
+{
+	"name": "angularjs-bootstrap-datetimepicker",
+	"version": "0.0.1",
+	"description": "angular directive for bootstrap datetimepicker",
+	"main": "datetimepicker.js",
+	"devDependencies": {
+		"bower": "latest",
+		"grunt": "0.4.1",
+		"grunt-cli": "0.1.10",
+		"grunt-contrib-jshint": "0.6.4",
+		"grunt-istanbul-coverage": "0.0.2",
+		"grunt-karma": "0.6.2",
+		"karma-coverage": "0.1.0",
+		"matchdep": "0.1.2"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"angular",
+		"bootstrap",
+		"datetimepicker",
+		"directive",
+		"datepicker",
+		"timepicker"
+	],
+	"author": "Ron Liu <ronliu2k@gmail.com>",
+	"license": "MIT"
+}
