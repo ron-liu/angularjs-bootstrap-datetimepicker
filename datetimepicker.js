@@ -17,7 +17,7 @@ Ron Liu
 
 */
 
-angular.module('angular-datetimepicker', [])
+angular.module('angularjs-bootstrap-datetimepicker', [])
 
 .directive('datetimepicker', function () {
 	function _byDefault(value, defaultValue) {

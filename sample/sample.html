@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../bower_components/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/smalot-bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet">
+</head>
+<body ng-app='app'>
+	<div ng-controller='choose'>
+		<datetimepicker ng-model='date' today-btn='true' minute-step='30' ></datetimepicker> 
+	</div>
+
+	<script type="text/javascript" src="../bower_components/jquery/jquery.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/docs/assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="../bower_components/smalot-bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="../datetimepicker.js"></script>
+	<script type="text/javascript">
+		angular.module('app', ['angularjs-bootstrap-datetimepicker'])
+		.controller('choose', ['$scope', '$interval', function($scope, $interval) {
+			$scope.date = new Date();
+			/*$interval(function(){
+				var d2 = new Date($scope.date);
+  				d2.setDate(d2.getDate() + 1);
+  				$scope.date = d2;
+			}, 100)*/
+		}]);
+	</script>
+</body>
+</html>
